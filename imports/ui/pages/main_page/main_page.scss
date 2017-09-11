@@ -1,0 +1,65 @@
+
+.main_page {
+    background: #fff;
+    width: 900px;
+    padding: 35px;
+    margin: 0 auto 15px auto;
+    overflow: hidden;
+    box-shadow: 0 0 6px #ccc;
+
+    .title {
+        margin: 0px 0 30px 0;
+        line-height: 70px;
+        text-align: center;
+        color: #111;
+    }
+
+
+    .item {
+        margin: 0 0 20px 0;
+    }
+
+    .basic-info {
+        padding: 0px 0 0px 140px;
+        p {
+            float: left;
+            width: 48%;
+            margin: 0 0 0px 0;
+
+            &.full {
+                width: 100%;
+            }
+        }
+
+    }
+    .basic-info .r {
+        float: right;
+    }
+
+    .section .title {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 5px;
+    }
+    .section span.value {
+        display: block;
+    }
+    .section h3 span.l, .section span.r {
+        width: 49%;
+        float: left;
+    }
+    .section span.r {
+        float: right;
+        text-align: right;
+    }
+
+    @media screen and (min-width: 1210px) {
+        width: 1096px;
+    }
+
+    @media screen and (min-width: 1520px) {
+        width: 1360px;
+    }
+
+
+}
+

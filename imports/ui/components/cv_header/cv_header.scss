@@ -1,0 +1,26 @@
+.cv_header {
+    /* ___ photo ___ */
+    #photo {
+        width: 160px;
+        height: 200px;
+        overflow: hidden;
+        float: left;
+        margin-top: 12px;
+        border-radius: 4px;
+    }
+    #photo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .header.photo {
+        margin-left: 190px;
+    }
+    .header.photo #title {
+        text-align: left;
+    }
+    .header.photo .basic-info {
+        float: none;
+        padding: 0;
+    }
+}
