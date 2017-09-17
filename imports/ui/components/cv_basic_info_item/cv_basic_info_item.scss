@@ -1,0 +1,22 @@
+.cv_basic_info_item {
+    display: block;
+    margin: 0 0 0px 0;
+    line-height: 24px;
+    padding: 4px 0;
+
+
+    label {
+        display: inline-block;
+        min-width: 68px;
+        padding-right: 16px;
+        vertical-align: top;
+        font-weight: bold;
+        >span {
+            float: right;
+        }
+    }
+    .value {
+        display: inline-block;
+    }
+}
+

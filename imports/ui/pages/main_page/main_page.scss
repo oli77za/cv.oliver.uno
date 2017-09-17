@@ -1,11 +1,11 @@
-
 .main_page {
     background: #fff;
-    width: 900px;
+    width: 100%;
     padding: 35px;
     margin: 0 auto 15px auto;
     overflow: hidden;
     box-shadow: 0 0 6px #ccc;
+    box-sizing: border-box;
 
     .title {
         margin: 0px 0 30px 0;
@@ -14,21 +14,21 @@
         color: #111;
     }
 
+    .cv_basic_info_item {
+        width: 50%;
+        float: left;
+        &.full {
+            width: 100%;
+        }
+    }
 
     .item {
         margin: 0 0 20px 0;
     }
 
     .basic-info {
-        padding: 0px 0 0px 140px;
+        padding: 0px 4px 0px 144px;
         p {
-            float: left;
-            width: 48%;
-            margin: 0 0 0px 0;
-
-            &.full {
-                width: 100%;
-            }
         }
 
     }
@@ -40,9 +40,6 @@
         border-bottom: 1px solid #ddd;
         padding-bottom: 5px;
     }
-    .section span.value {
-        display: block;
-    }
     .section h3 span.l, .section span.r {
         width: 49%;
         float: left;
@@ -52,12 +49,16 @@
         text-align: right;
     }
 
+    @media screen and (min-width: 900px) {
+        width: 900px;
+    }
+
     @media screen and (min-width: 1210px) {
-        width: 1096px;
+        width: 1210px;
     }
 
     @media screen and (min-width: 1520px) {
-        width: 1360px;
+        width: 1520px;
     }
 
 

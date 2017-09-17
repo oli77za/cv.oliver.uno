@@ -1,0 +1,16 @@
+<template name="cv_basic_info_item">
+    <!-- cv_basic_info_item -->
+    <div class="cv_basic_info_item {{extraClass}}">
+        <label>{{label}}<span>:</span></label><span class="value">
+            {{#unless href}}
+            {{{value}}}{{>Template.contentBlock}}
+            {{/unless}}
+            {{#if href}}
+            <a href={{href}}>
+            {{{value}}}{{>Template.contentBlock}}
+            </a>
+            {{/if}}
+        </span>
+    </div>
+    <!-- cv_basic_info_item -->
+</template>

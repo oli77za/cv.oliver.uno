@@ -5,34 +5,13 @@
             <div id="photo">
                 <img src="photo.jpg" alt="Photo" />
             </div>
-            <div class="header photo">
-                <h1 class="title">Oliver Zampieri</h1>
-                <div class="basic-info section">
-                    <p class="email"><label>E-mail<span class="colon">:</span></label> <span class="value">oliver.zampieri@gmail.com</span></p>
-                    <p class="phone"><label>Phone<span class="colon">:</span></label> <span class="value">+44 7776 257203</span></p>
-                    <p class="address "><label>Address<span class="colon">:</span></label><span class="value">70 Armadale Court<br />Westcote Road<br />Reading</span></p>
-                    <div class="clear"> </div>
-                    <p class="website full"><label>Website<span class="colon">:</span></label> <span class="value"><a href="http://cv.oliver.uno" rel="nofollow">http://cv.oliver.uno</a></span></p>
-                    <p class="website full"><label>GitHUB<span class="colon">:</span></label> <span class="value"><a href="https://github.com/oli77za" rel="nofollow">https://github.com/oli77za</a></span></p>
-                    <p class="website full"><label>Stack overflow<span class="colon">:</span></label> <span class="value"><a href="https://stackoverflow.com/users/1306079/oliver" rel="nofollow">https://stackoverflow.com/users/1306079/oliver</a></span></p>
-                    <p class="website full"><label>Linked IN<span class="colon">:</span></label> <span class="value"><a href="https://www.linkedin.com/in/oliver-zampieri/" rel="nofollow">https://www.linkedin.com/in/oliver-zampieri/</a></span></p>
-                    <div class="clear"> </div>
-                </div><!-- basic-info //-->
-
-            </div><div class="clear"> </div>
-            <img src="photo.jpg" alt="Photo" />
         </div>
         <div class="header photo">
-            <h1 class="title">Oliver Zampieri</h1>
+            <h1 class="title">{{name}}</h1>
             <div class="basic-info section">
-                <p class="email"><label>E-mail<span class="colon">:</span></label> <span class="value">oliver.zampieri@gmail.com</span></p>
-                <p class="phone"><label>Phone<span class="colon">:</span></label> <span class="value">+44 7776 257203</span></p>
-                <p class="address "><label>Address<span class="colon">:</span></label><span class="value">70 Armadale Court<br />Westcote Road<br />Reading</span></p>
-                <div class="clear"> </div>
-                <p class="website full"><label>Website<span class="colon">:</span></label> <span class="value"><a href="http://cv.oliver.uno" rel="nofollow">http://cv.oliver.uno</a></span></p>
-                <p class="website full"><label>GitHUB<span class="colon">:</span></label> <span class="value"><a href="https://github.com/oli77za" rel="nofollow">https://github.com/oli77za</a></span></p>
-                <p class="website full"><label>Stack overflow<span class="colon">:</span></label> <span class="value"><a href="https://stackoverflow.com/users/1306079/oliver" rel="nofollow">https://stackoverflow.com/users/1306079/oliver</a></span></p>
-                <p class="website full"><label>Linked IN<span class="colon">:</span></label> <span class="value"><a href="https://www.linkedin.com/in/oliver-zampieri/" rel="nofollow">https://www.linkedin.com/in/oliver-zampieri/</a></span></p>
+                {{#each item in basic_info.items}}
+                {{>cv_basic_info_item item}}
+                {{/each}}
                 <div class="clear"> </div>
             </div><!-- basic-info //-->
 

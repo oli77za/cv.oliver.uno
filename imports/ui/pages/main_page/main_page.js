@@ -1,6 +1,7 @@
 import { Template } from "meteor/templating";
 import { BlazeLayout } from "meteor/kadira:blaze-layout";
 import { FlowRouter } from "meteor/kadira:flow-router";
+import { ReactiveVar } from "meteor/reactive-var";
 
 import { main_layout } from "/imports/ui/layouts/main_layout/main_layout";
 import { chip } from "/imports/ui/components/chip/chip";
@@ -28,12 +29,22 @@ FlowRouter.route("/", {
 });
 
 Template.main_page.onCreated(function() {
+    var self = this;
+    this.cvData = new ReactiveVar();
+    Meteor.call("fetchData", (err, result) => {
+        if (!err) {
+            self.cvData.set(result);
+        }
+    });
 });
 
 Template.main_page.onRendered(function() {
 });
 
 Template.main_page.helpers({
+    'cv_data'() {
+        return Template.instance().cvData.get();
+    }
 });
 
 Template.main_page.events({
