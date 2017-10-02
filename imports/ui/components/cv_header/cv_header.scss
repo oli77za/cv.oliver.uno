@@ -13,6 +13,16 @@
         height: auto;
     }
 
+    .cv_basic_info_item {
+        display: block;
+        width: 50%;
+        float: left;
+        &.full {
+            width: 100%;
+        }
+    }
+
+
     .header.photo {
         margin-left: 190px;
     }
