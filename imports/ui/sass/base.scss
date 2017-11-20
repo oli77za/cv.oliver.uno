@@ -47,3 +47,9 @@ a {
 }
 
 
+@media print {
+    body {
+        line-height: 16px;
+        font-size: 12px;
+    }
+}

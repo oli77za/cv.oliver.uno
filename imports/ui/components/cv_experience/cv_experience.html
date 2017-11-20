@@ -12,7 +12,7 @@
                     <div class="clear"> </div>
                     <span class="job_title">{{item.job_title}}</span>
                     <div class="info">
-                        {{{item.description}}}
+                        {{{renderDescription item.description}}}
                     </div>
                     <div class="technologies">
                         {{#each tag in item.tags}}

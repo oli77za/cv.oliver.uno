@@ -4,5 +4,8 @@
         display: block;
         margin: 5px 0 5px 0;
     }
+    @media print {
+        page-break-before: always;
+    }
 }
 

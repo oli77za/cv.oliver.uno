@@ -33,4 +33,11 @@
         float: none;
         padding: 0;
     }
+
+    @media print {
+        #photo {
+            width: 80px;
+            height: auto;
+        }
+    }
 }

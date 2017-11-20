@@ -5,7 +5,7 @@
             "items": [
                 { "label": "Email", "value": "oliver.zampieri@gmail.com" },
                 { "label": "Phone", "value": "+44 7776 257203" },
-                { "label": "Address", "value": "70 Armadale Court<br />Westcote Road<br />Reading<br/>RG 2DF" },
+                { "label": "Twitter", "value": "@oli77za" },
                 { "label": "Website", "value": "http://cv.oliver.uno", "href":"http://cv.oliver.uno", "extraClass": "full" },
                 { "label": "GitHUB", "href": "https://github.com/oli77za", "value": "https://github.com/oli77za", "extraClass": "full" },
                 { "label": "Stack overflow", "href": "https://stackoverflow.com/users/1306079/oliver", "value": "https://stackoverflow.com/users/1306079/oliver", "extraClass": "full" },
@@ -14,14 +14,14 @@
         }
     },
     "profile": {
-        "description": "I have a passion for technology, this allowed me to build a strong understanding of software design and development. My experience ranges from C++ development and embedded systems, to modern web technologies and this enables me to have a deep understanding of complex systems, and to have the relevant knowledge when selecting a technology to use"
+        "description": "I have a passion for technology, this allowed me to build a strong understanding of software design and development. I am valued for driving quality and consistency throughout all phases of software development and implementation.<br>My experience ranges from C++ development and embedded systems, to modern web technologies and this enables me to have a deep understanding of complex systems, and to have the relevant knowledge when selecting a technology to use"
     },
     "skills": {
         "label": "Technologies",
         "sections": [
             {
                 "name": "Languages",
-                "items": [ "Java", "Javascript (ES5 ES6)", "CSS (SASS)", "C++", "PHP", "Shell scripting (bash)", "Python", "PERL" ]
+                "items": [ "Java", "Javascript (ES5 ES6)", "CSS (SASS)", "C++", "PHP", "Shell scripting (bash)", "Python" ]
             },
             {
                 "name": "Databases",
@@ -29,7 +29,7 @@
             },
             {
                 "name": "Frameworks and libraries",
-                "items": [ "Spring", "Meteor", "React", "Handlebars/Spacebars", "Hibernate", "Symphony" ]
+                "items": [ "Spring", "Meteor", "React", "Handlebars/Spacebars", "Hibernate", "Symphony", "Linux kernel" ]
             },
             {
                 "name": "Servers",
@@ -42,7 +42,7 @@
             },
             {
                 "name": "OSs and runtimes",
-                "items": [ "Linux", "Solaris", "AWS", "Docker" ]
+                "items": [ "Linux", "Solaris", "AWS", "Docker", "OpenVMS" ]
             }
         ]
     },
@@ -51,76 +51,148 @@
             {
                 "company": "CDG Group",
                 "period": "Jul 2017 &mdash; present",
-                "job_title":"Senior software developer",
-                "description": "Develop next generation of platform services of the SpecSavers digital architecture using spring-cloud microservices<br/>Implement high availability and scalable solutions for the deployment of the platform in the AWS cloud<br/>Design microservices messaging solution<br/>Enhance ELK stack for ntelligent alerting<br/>Contribute to devops tasks by automating deployments with <i>HashiCorp</i>products (Nomad, Consul, Terraform, Vagrant)<br/>Contribute to <a href=\"https://github.com/Yelp/elastalert\">elastalert</a>, an opensource project to create notifications based on queries to the ELK stack",
-                "tags": [ "Java8", "Python", "bash", "Spring cloud", "Java messaging", "Kafka", "Elasticsearch", "ELK stack", "nomad", "AWS" ]
+                "job_title":"Senior cloud infrastructure consultant",
+                "description": [
+                    "Develop next generation of platform services of the SpecSavers digital architecture using spring-cloud microservices",
+                    "Implement high availability and scalable solutions for the deployment of the platform in the AWS cloud",
+                    "Design microservices messaging solution",
+                    "Enhance ELK stack for ntelligent alerting",
+                    "Contribute to devops tasks by automating deployments with <i>HashiCorp</i> products (Nomad, Consul, Terraform, Vagrant)",
+                    "Contribute to opensource project to create notifications based on queries to the ELK stack",
+                    "Support data analysis from the operations team",
+                    "Support infrastructure team in linux administration and networking (Routing/VPN/Security)"
+                ],
+                "tags": [ "Java8", "Python", "bash", "Spring cloud", "Java messaging", "Kafka", "Elasticsearch", "ELK stack", "Cassandra", "nomad", "AWS", "Linux", "Docker" ]
             },
             {
                 "company": "Tesco",
                 "period": "Dec 2015 &mdash; Mar 2017",
                 "job_title": "Software developer and prototypist",
-                "description": "Create pixel perfect function prototype with Meteor JS for new generation of tesco.com websitesa Used Meteor with Spacebars (Handlebars) and SASS.<br/>Developed a CMS type of web application to publish principles based on node.js and meteor.<br/>Contributed in building a React  and SASS (using BEM) component library to re-usable components within the organisation<br />Configured continous integration and deployment systems with Jenkins and integration with GitHUB enterprise<br/>Provided ops support for the team, configured NGinx, Apache, database servers, docker instances, RoR installations<br/>Provided development and operation support for internal publishing sites<br />Managed the team technical infrastructure (AWS) and provide consultancy on web technologiesImplemented security policies for Infosec compliance",
+                "description": [
+                    "Create pixel perfect function prototype with Meteor JS for new generation of tesco.com websitesa Used Meteor with Spacebars (Handlebars) and SASS.",
+                    "Provided ops support for the team, configured NGinx, Apache, database servers, docker instances, RoR installations",
+                    "Develop a CMS type of web application to publish principles based on node.js and meteor.",
+                    "Contribute in building a React  and SASS (using BEM) component library to re-usable components within the organisation",
+                    "Configured continous integration and deployment systems with Jenkins and integration with GitHUB enterprise",
+                    "Provided development and operation support for internal publishing sites",
+                    "Managed the team technical infrastructure (AWS) and provide consultancy on web technologiesImplemented security policies for Infosec compliance"
+                ],
                 "tags": [ "meteor.js", "react.js", "SASS", "ES6", "PHP", "GitHUB", "AWS", "Wordpress" ]
             },
             { "company": "Mobile worker plus",
                 "period": "October 2013 &mdash; October 2015",
                 "job_title":"Technical director",
-                "description": "Designed and developed MWP product suite for remote workforce management<br />Authored a geolocation data source as a JAX-RS/JAXB web service. Designed and developed several car park booking portals with complex workflows<br />Designed and implemented devops infrastrucure<br />Produced release and build processes<br />Provided training and mentoring for the developers and engineers in the organization",
+                "description": [
+                    "Design and develop MWP product suite for remote workforce management",
+                    "Author a geolocation data source as a JAX-RS/JAXB web service. Design and develop several car park booking portals with complex workflows",
+                    "Design and implement devops processes",
+                    "Design and implement infrastructure for live environments and internal tools",
+                    "Plan and implement migration strategy to cloud services (AWS and Google Cloud)",
+                    "Produce release and build processes",
+                    "Provide training and mentoring for the developers and engineers in the organization"
+                ],
                 "tags": [ "PHP", "Drupal", "Symfony", "Java", "Javascript", "Dojo", "Angular", "Hibernate", "Spring", "JPA", "Tomcat", "Jetty", "Apache", "AWS", "Subversion", "Maven", "Nexus" ]
             },
             { "company": "SynergizeIT",
                 "period": "March 2011 &mdash; October 2013",
                 "job_title":"Director of Research and Development",
-                "description": "Provided technical consultancy to the company<br />Mentored engineers, both for development and system administration<br />Developed event driven low latency gateways for messaging solutions<br />Developed and maintained web internal applications to monitor infrastructure and provided statistics<br />Developed Java applications for managing SMS distribution lists<br />Designed and developed web portals for Telco operators<br />Provided sales support",
-                "tags": [ "PHP", "Java", "GSM", "Linux" ]
+                "description": [
+                    "Provided technical consultancy to the company",
+                    "Mentored engineers, both for development and system administration",
+                    "Develop event driven low latency gateways for messaging solutions",
+                    "Develop and maintain web internal applications to monitor infrastructure and provided statistics",
+                    "Develop Java applications for managing SMS distribution lists",
+                    "Develop data analysis tools to extract SMS trends",
+                    "Extract live database feeds to produce SMS billing reports",
+                    "Design and develop web portals for Telco operators",
+                    "Provided sales support"
+                ],
+                "tags": [ "PHP", "Java", "GSM", "Linux", "MySQL", "SMS" ]
             },
             {
                 "company": "Staellium UK Limited",
                 "period": "December 2007 &mdash; March 2008",
                 "job_title":"Software Architect",
-                "description": "Developed IP based messaging solution<br />Provided pre-sales support",
+                "description": [
+                    "Developed IP based messaging solution",
+                    "Provided pre-sales support"
+                ],
                 "tags": [ "Java", "Spring", "Hibernate", "Javascript", "YUI" ]
             },
             {
                 "company": "Airwide",
                 "period": "October 2006 &mdash; March 2007",
                 "job_title": "Technical consultant",
-                "description": "Created automation tools for installing GSM telecoms systems, Used RedHat kickstart, bash and python<br />Provided senior support for system installation across EMEA",
+                "description": [
+                    "Created automation tools for installing GSM telecoms systems, Used RedHat kickstart, bash and python",
+                    "Provided senior support for system installation across EMEA"
+                ],
                 "tags": [ "Linux", "GSM", "bash", "RedHat", "kickstart" ]
             },
             {
                 "company": "Vodafone",
                 "period": "April 2006 &mdash; October 2006",
                 "job_title": "Network specialist",
-                "description": "Played active roles in the migration of HLR and EIR from Legacy to Linux architectures<br />Planning and implementation for the migration from SS7 to Sigtran of core network nodes (HLR, SCCP Relay)<br />Design and development of analysis and reporting web-based (apache/tomcat) tools to extract key data from the IN core network for other departments (Marketing, Customer Care, Corporate Customers support) on Linux nodes.<br />Writing automation scripts for O&amp;M in various languages (ksh, perl)<br />Support to high availability IN production nodes<br />Coordination of suppliers",
+                "description": [
+                    "Played active roles in the migration of HLR and EIR from Legacy to Linux architectures",
+                    "Planning and implementation for the migration from SS7 to Sigtran of core network nodes (HLR, SCCP Relay)",
+                    "Design and development of analysis and reporting web-based (apache/tomcat) tools to extract key data from the IN core network for other departments (Marketing, Customer Care, Corporate Customers support) on Linux nodes.",
+                    "Writing automation scripts for O&amp;M in various languages (ksh, perl)",
+                    "Support to high availability IN production nodes",
+                    "Coordination of suppliers"
+                ],
                 "tags": [ "OpenVMS", "HP-UX", "GSM", "bash", "DCL" ]
             },
             {
                 "company": "Tektronix",
                 "period": "September 2004 &mdash; April 2006",
                 "job_title": "Technical Consultant/Project Manager",
-                "description": "Stakeholder management at senior level for major telecommunications companies throughout Europe.<br />Project management and technical consultancy for major deployment which received an award from the GSM congress (see achievements) <br />Coordinating project resources and contractors for major project deployments<br />Support to sales and program management for deployment/sale of new solution/architectures<br />Consultancy to network monitoring teams in major telcos<br />Support of network diagnostic solutions and reporting applications for major telecoms operators<br />Delivery and integration of GPRS/UMTS network and service assurance architectures based on Solaris Servers and Linux probes<br />Second line troubleshooting, and code investigation for Tektronix products on Solaris and Linux",
-                "tags": [ "GSM", "ISUP", "Linux", "Solaris", "bash", "python", "Oracle", "Cognito" ]
+                "description": [
+                    "Stakeholder management at senior level for major telecommunications companies throughout Europe.",
+                    "Project management and technical consultancy for major deployment which received an award from the GSM congress (see achievements) ",
+                    "Coordinating project resources and contractors for major project deployments",
+                    "Support to sales and program management for deployment/sale of new solution/architectures",
+                    "Consultancy to network monitoring teams in major telcos",
+                    "Support of network diagnostic solutions and reporting applications for major telecoms operators",
+                    "Delivery and integration of GPRS/UMTS network and service assurance architectures based on Solaris Servers and Linux probes",
+                    "Second line troubleshooting, and code investigation for Tektronix products on Solaris and Linux"
+                ],
+                "tags": [ "GSM", "ISUP", "Linux", "Solaris", "bash", "python", "Oracle", "Cognos" ]
             },
             {
                 "company": "Schlumberger",
                 "period": "July 2001 &mdash; September 2004",
                 "job_title": "Messaging Competence Center Manager",
-                "description": "Startup of the Budapest Competence Centre for messaging products<br />Sales support. Identifying the latest technologies to integrate our products within the customer environment<br />Project management for deployment of messaging systems and integration within GSM networks<br />Line management for the support and deliveries team, locally and from the UK<br />Coordinate customer support for major European GSM operators for high availability systems<br />Provide consultancy for GSM operators, identifying the business requirements and providing appropriate solutions<br />Development of diagnostic tools for messaging platform<br />Integration with network monitoring and management solutions",
+                "description": [
+                    "Startup of the Budapest Competence Centre for messaging products",
+                    "Sales support. Identifying the latest technologies to integrate our products within the customer environment",
+                    "Project management for deployment of messaging systems and integration within GSM networks",
+                    "Line management for the support and deliveries team, locally and from the UK",
+                    "Coordinate customer support for major European GSM operators for high availability systems",
+                    "Provide consultancy for GSM operators, identifying the business requirements and providing appropriate solutions",
+                    "Development of diagnostic tools for messaging platform",
+                    "Integration with network monitoring and management solutions"
+                ],
                 "tags": [ "GSM", "Linux", "OpenVMS" ]
             },
             {
                 "company": "Sema group",
                 "period": "April 1999 &mdash; July 2001",
                 "job_title": "Software analyst and developer",
-                "description": "Designed and developed applications for Telco operators<br />Designed and developed SNMP subagents",
+                "description": [
+                    "Designed and developed applications for Telco operators",
+                    "Designed and developed SNMP subagents"
+                ],
                 "tags": [ "C++", "SNMP", "Solaris" ]
             },
             {
                 "company": "Telecomunicazioni e informatica",
                 "period": "July 1997 &mdash; April 1999",
                 "job_title": "Software developer",
-                "description": "Developed software application for Ericsson's TMOS platform<br />Developed applications for operation support in telco operators",
+                "description": [
+                    "Developed software application for Ericsson's TMOS platform",
+                    "Developed applications for operation support in telco operators"
+                ],
                 "tags": [ "C++", "Unix", "Solaris", "TMOS/OSS" ]
             }
         ]
@@ -136,7 +208,6 @@
             }
         ]
     },
-
     "interests": {
         "label": "Interests",
         "items": [
