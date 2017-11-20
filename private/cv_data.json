@@ -77,7 +77,7 @@
                     "Provided development and operation support for internal publishing sites",
                     "Managed the team technical infrastructure (AWS) and provide consultancy on web technologiesImplemented security policies for Infosec compliance"
                 ],
-                "tags": [ "meteor.js", "react.js", "SASS", "ES6", "PHP", "GitHUB", "AWS", "Wordpress" ]
+                "tags": [ "meteor.js", "react.js", "SASS", "ES6", "PHP", "GitHUB", "AWS", "Postgres", "Wordpress" ]
             },
             { "company": "Mobile worker plus",
                 "period": "October 2013 &mdash; October 2015",
@@ -91,7 +91,7 @@
                     "Produce release and build processes",
                     "Provide training and mentoring for the developers and engineers in the organization"
                 ],
-                "tags": [ "PHP", "Drupal", "Symfony", "Java", "Javascript", "Dojo", "Angular", "Hibernate", "Spring", "JPA", "Tomcat", "Jetty", "Apache", "AWS", "Subversion", "Maven", "Nexus" ]
+                "tags": [ "PHP", "Drupal", "Symfony", "Java", "Javascript", "Dojo", "MySQL", "Postgres", "Angular", "Hibernate", "Spring", "JPA", "Tomcat", "Jetty", "Apache", "AWS", "Subversion", "Maven", "Nexus" ]
             },
             { "company": "SynergizeIT",
                 "period": "March 2011 &mdash; October 2013",
