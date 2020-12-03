@@ -49,20 +49,6 @@
     "experience": {
         "items": [
             {
-                "company": "Innova servizi - Telepass",
-                "period": "June 2019 &mdash; present",
-                "job_title": "Senior cloud infrastructure consultant",
-                "description": [
-                    "Develop a microservice for Telepass for interfacing with veichles",
-                    "Develop the cloud infrastructure",
-                    "Assist in the solution design",
-                    "Develop integration components to interface with data providers in the automotive industry (FCA, Macnil)",
-                    "Setup devops infrastructure and advise on best practices",
-                    "Mentor the software development team"
-                ],
-                "tags": [ "Java", "Kubernetes", "GCP", "Terraform", "Jenkins" ]
-            },
-            {
                 "company": "Mobile Worker Plus",
                 "period": "Jul 2017 &mdash; present",
                 "job_title":"Consultant",
@@ -72,7 +58,7 @@
                     "Develop new generation of core tracking and workforce management products",
                     "Re-design authentication model based on OAuth2/JWT"
                 ],
-                "tags": [ "Java", "Docker", "React", "OAuth2" ]
+                "tags": [ "Java", "Docker", "React", "OAuth2", "GCP", "Kubernetes" ]
             },
             {
                 "company": "CDG Group",
